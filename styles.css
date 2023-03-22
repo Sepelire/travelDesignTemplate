@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'FontName';
-  src: url('FileName.eot');
-  src: url('FileName.eot?#iefix') format('embedded-opentype'),
-    url('FileName.woff') format('woff'),
-    url('FileName.ttf') format('truetype'),
-    url('FileName.svg#FontName') format('svg');
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Poppins';
+  src: url('Fonts/Poppins-Regular.woff') format('woff'),
+    url('Fonts/Poppins-Regular.woff2') format('woff2'),
+    url('Fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+.root {
+  font-family: 'Poppins', "Times New Roman", serif;
 }
