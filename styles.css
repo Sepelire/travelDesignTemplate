@@ -9,39 +9,83 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 .root {
+  top: 0;
   font-family: 'Poppins', "Times New Roman", serif;
 }
 
 .header {
+  padding-top: 31px;
 }
+
 .container {
+  margin: 0 auto;
+  max-width: 1376px;
+  max-height: 800px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
 }
+
 .nav__logo-link {
 }
+
 .header__logo-img {
+  width: 87px;
+  height: 35px;
 }
+
 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .nav-list {
+  display: flex;
+  gap: 54px;
 }
+
 .nav__item {
 }
+
 .nav__item-link {
+  font-weight: 300;
+  color: #B3B4B4;
 }
+
 .nav__item-link--active {
+  font-weight: 400;
+  color: #fff;
 }
+
 .nav__user {
+  display: flex;
+  gap: 8px;
 }
+
 .user-content {
+  align-self: center;
+  font-weight: 400;
+  text-align: right;
 }
+
 .user-content__span {
+  color: #818182;
 }
+
 .user-content__name {
+  font-weight: 600;
 }
+
 .user-avatar {
 }
+
 .user-avatar__image {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
 }
