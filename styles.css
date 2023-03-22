@@ -17,6 +17,9 @@
   font-family: 'Poppins', "Times New Roman", serif;
 }
 
+.title {
+}
+
 .header {
   padding-top: 31px;
   background-image: url(img/header__bg.png);
@@ -29,6 +32,9 @@
   margin: 0 auto;
   max-width: 1376px;
   max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 14px;
   line-height: 21px;
   color: #fff;
@@ -43,6 +49,7 @@
 }
 
 .nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,4 +99,11 @@
   width: 48px;
   height: 48px;
   border-radius: 24px;
+}
+
+.header__title {
+  padding-top: 183px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62px;
 }
