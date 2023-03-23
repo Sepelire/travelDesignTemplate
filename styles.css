@@ -20,11 +20,21 @@
 .title {
 }
 
+.btn {
+  background: #7B61FF;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 .header {
   padding-top: 31px;
   background-image: url(img/header__bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   border-radius: 0 0 54px 54px;
 }
 
@@ -102,8 +112,81 @@
 }
 
 .header__title {
+  margin-bottom: 32px;
   padding-top: 183px;
   font-size: 48px;
   font-weight: 600;
   line-height: 62px;
+}
+
+.btn-discover {
+  margin-bottom: 184px;
+  width: 273px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__btn-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.header__btn-text {
+  color: #fff;
+}
+
+.search-row {
+  margin-bottom: 100px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.search-row__list {
+  display: flex;
+  color: #000;
+}
+
+.search-row__item {
+  min-width: 254px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.search-row__icon {
+  margin-left: 18px;
+  width: 20px;
+  height: 20px;
+}
+
+.search-row__item-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-row__span {
+}
+
+.search-row__select {
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.btn-search {
+  width: 60px;
+  height: 60px;
+}
+
+.btn-search__icon {
+  width: 20px;
+  height: 20px;
 }
