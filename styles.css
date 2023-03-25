@@ -3,6 +3,7 @@
   src: url('Fonts/Poppins-Regular.woff') format('woff'),
     url('Fonts/Poppins-Regular.woff2') format('woff2'),
     url('Fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 900;
 }
 
 * {
@@ -13,11 +14,10 @@
 }
 
 .root {
+  margin: 0 auto;
+  max-width: 1920px;
   top: 0;
   font-family: 'Poppins', "Times New Roman", serif;
-}
-
-.title {
 }
 
 .btn {
@@ -25,22 +25,32 @@
   border: none;
   border-radius: 12px;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
 }
 
-.header {
-  padding-top: 31px;
-  background-image: url(img/header__bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 0 0 54px 54px;
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1376px;
+}
+
+/* header start */
+.header {
+  padding-top: 31px;
+  background-image: url(img/header__bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 0 0 54px 54px;
+}
+
+.header__container {
   max-height: 800px;
   display: flex;
   flex-direction: column;
@@ -48,9 +58,6 @@
   font-size: 14px;
   line-height: 21px;
   color: #fff;
-}
-
-.nav__logo-link {
 }
 
 .header__logo-img {
@@ -70,16 +77,12 @@
   gap: 54px;
 }
 
-.nav__item {
-}
-
 .nav__item-link {
   font-weight: 300;
   color: #B3B4B4;
 }
 
 .nav__item-link--active {
-  font-weight: 400;
   color: #fff;
 }
 
@@ -88,9 +91,12 @@
   gap: 8px;
 }
 
+.nav__user {
+  position: relative;
+}
+
 .user-content {
   align-self: center;
-  font-weight: 400;
   text-align: right;
 }
 
@@ -102,13 +108,22 @@
   font-weight: 600;
 }
 
-.user-avatar {
+.user-avatar::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: red;
+  border-radius: 50%;
 }
 
 .user-avatar__image {
   width: 48px;
   height: 48px;
-  border-radius: 24px;
+  border-radius: 50%;
 }
 
 .header__title {
@@ -138,7 +153,7 @@
   color: #fff;
 }
 
-.search-row {
+.form__search-row {
   margin-bottom: 100px;
   padding: 8px;
   display: flex;
@@ -171,7 +186,10 @@
   flex-direction: column;
 }
 
-.search-row__span {
+.search-row__label {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
 }
 
 .search-row__select {
@@ -190,3 +208,4 @@
   width: 20px;
   height: 20px;
 }
+/* header end */
