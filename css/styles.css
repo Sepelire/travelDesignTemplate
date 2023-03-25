@@ -1,16 +1,11 @@
+@import "./reset.css";
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600);
+
 @font-face {
   font-family: 'Poppins';
   src: url('Fonts/Poppins-Regular.woff') format('woff'),
     url('Fonts/Poppins-Regular.woff2') format('woff2'),
     url('Fonts/Poppins-Regular.ttf') format('truetype');
-    font-weight: 900;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
 }
 
 .root {
@@ -43,7 +38,7 @@
 /* header start */
 .header {
   padding-top: 31px;
-  background-image: url(img/header__bg.png);
+  background-image: url(../img/header__bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
