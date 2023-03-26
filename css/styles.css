@@ -10,6 +10,7 @@
 
 .root {
   margin: 0 auto;
+  font-family: 'Poppins', 'Arial', serif;
   font-weight: 400;
 }
 
@@ -111,20 +112,39 @@
 /* nav end */
 
 /* header__main start */
-.title {
+.header__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
 }
+
 .header__title {
+  font-size: 48px;
+  line-height: 62px;
+  margin-bottom: 32px;
 }
-.btn {
-}
+
 .btn-discover {
+  width: 273px;
+  height: 72px;
+  border-radius: 12px;
+  background: #7F6Bff;
 }
+
 .btn-discover-icon {
+  margin-right: 10px;
+  max-width: 20px;
+  max-height: 20px;
 }
+
 .header__btn-text {
+  font-size: 18px;
+  line-height: 24px;
 }
 /* header__main end */
 
+/* form start */
 .form {
 }
 .form__search-row {
@@ -147,3 +167,4 @@
 }
 .btn-search__icon {
 }
+/* form end */
