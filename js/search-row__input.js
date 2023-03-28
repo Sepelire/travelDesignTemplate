@@ -238,3 +238,26 @@ const countries = [
   "Zimbabwe",
 ];
 
+const autoCompleteJS = new autoComplete({
+  selector: "#location",
+  placeHolder: "Country Name...",
+  data: {
+    src: countries,
+    cache: true,
+  },
+  resultItem: {
+    highlight: true,
+  },
+  events: {
+    input: {
+      selection: (event) => {
+        const selection = event.detail.selection.value;
+        autoCompleteJS.input.value = selection;
+      }
+    }
+  },
+  resultsList: {
+    maxResults: 15,
+  },
+  searchEngine: 'strict',
+});
