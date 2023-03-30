@@ -222,3 +222,92 @@
 .btn-search__icon {
 }
 /* form end */
+/* header end */
+
+/* main start */
+.main {
+  padding: 120px 0;
+  display: grid;
+  gap: 120px;
+}
+
+/* section "destinations" start */
+.section {
+}
+.section--destinations {
+}
+
+.container {
+}
+
+.container--destinations {
+}
+
+.section__header {
+  margin-bottom: 64px;
+}
+
+.section__header--destinations {
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.section__cards {
+  display: grid;
+  gap: 32px;
+}
+
+.section__cards--destinations {
+  grid-template-columns: repeat(6, 203px);
+}
+
+.card {
+}
+.card--destinations {
+  position: relative;
+}
+
+.card__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__figure {
+}
+
+.card__img {
+  border-radius: 12px;
+}
+
+.card__img--destinations {
+  margin-bottom: 8px;
+}
+
+.card__figcaption {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.card__footer-location {
+  position: relative;
+  z-index: 1;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #979797;
+}
+
+.card__footer-location:hover {
+  color: #7B61FF;
+}
+/* section "destinations" end */
+
+/* main end */
