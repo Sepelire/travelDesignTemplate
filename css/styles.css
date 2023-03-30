@@ -1,13 +1,6 @@
 @import "./reset.css";
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600);
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('Fonts/Poppins-Regular.woff') format('woff'),
-    url('Fonts/Poppins-Regular.woff2') format('woff2'),
-    url('Fonts/Poppins-Regular.ttf') format('truetype');
-}
-
 .root {
   margin: 0 auto;
   font-family: 'Poppins', 'Arial', serif;
@@ -228,7 +221,7 @@
 .main {
   padding: 120px 0;
   display: grid;
-  gap: 120px;
+  row-gap: 120px;
 }
 
 /* section "destinations" start */
@@ -309,5 +302,97 @@
   color: #7B61FF;
 }
 /* section "destinations" end */
+/* section "hotels-restaurants" start */
+.section {
+  
+}
+.section--hotels-restaurants {
+}
+.container {
+}
+.container--hotels-restaurants {
+}
+
+.section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__header--hotels-restaurants {
+}
+.title {
+}
+
+.btn {
+  font-size: 16px;
+}
+
+.btn-more {
+  padding: 10px;
+  height: 44px;
+  width: 105px;
+  display: flex;
+  align-items: center;
+  column-gap: 7.3px;
+  border-radius: 12px;
+  background: #F6F4FF;
+}
+
+.icon-arrow {
+  height: 13px;
+  width: 13px;
+}
+
+.section__cards {
+}
+
+.section__cards--hotels-restaurants {
+  grid-template-columns: repeat(4, 320px);
+}
+
+.card {
+}
+.card--hotels-restaurants {
+}
+.card__link {
+}
+.card__figure {
+}
+
+.card__figure--hotels-restaurants {
+  margin-bottom: 12px;
+}
+
+.card__img {
+}
+
+.card__img--hotels-restaurants {
+  margin-bottom: 10px;
+}
+
+.card__figcaption {
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../img/hotels/hotels__icon-location.svg);
+  background-size: 12px 14.5px;
+  background-repeat: no-repeat;
+  background-position: 2px 4px;
+}
+
+.card__footer-location--hotels-restaurants {
+  padding-left: 20px;
+}
+
+.card-rating {
+}
+.card-star {
+  color: #FFA800;
+}
+/* section "hotels-restaurants" start */
 
 /* main end */
