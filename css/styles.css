@@ -283,7 +283,7 @@
   margin-bottom: 8px;
 }
 
-.card__figcaption {
+.card__title {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -371,12 +371,15 @@
   margin-bottom: 10px;
 }
 
-.card__figcaption {
+.card__title {
 }
 
 .card__footer {
   display: flex;
   align-items: center;
+}
+
+.card__footer--hotels-restaurants {
   justify-content: space-between;
   background-image: url(../img/hotels/hotels__icon-location.svg);
   background-size: 12px 14.5px;
@@ -391,8 +394,97 @@
 .card-rating {
 }
 .card-star {
-  color: #FFA800;
+  height: 14.5px;
+  width: 15px;
 }
-/* section "hotels-restaurants" start */
+/* section "hotels-restaurants" end */
+
+/* section "travel-tips" start */
+.section {
+}
+.section--travel-tips {
+}
+.container {
+}
+.container--travel-tips {
+}
+.section__header {
+}
+.section__header--travel-tips {
+}
+.title {
+}
+.btn {
+}
+.btn-more {
+}
+.icon-arrow {
+}
+.section__cards {
+}
+
+.section__cards--travel-tips {
+  grid-template-columns: repeat(4, 320px);
+}
+
+.card {
+}
+.card--travel-tips {
+}
+.card__link {
+}
+.card__img {
+}
+.card__img--travel-tips {
+}
+.card__title {
+}
+
+.card__title--travel-tips {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.card__description {
+  margin-bottom: 124px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #5B5B5B;
+}
+
+.card__footer {
+}
+
+.card__footer--travel-tips {
+  font-size: 12px;
+  line-height: 18px;
+  color: #878787;
+}
+
+.card__footer-span {
+  padding-left: 44px;
+  background-repeat: no-repeat;
+  background-position: 25px 1.5px;
+}
+
+.card__footer-span--date {
+  padding-left: 20px;
+  background-image: url(../img/travel-tips/travel-tips__icon-calendar.svg);
+  background-position: 0;
+}
+
+.card__footer-span--author {
+  background-image: url(../img/travel-tips/travel-tips__icon-person.svg);
+}
+
+.card__footer-span--comments {
+  background-image: url(../img/travel-tips/travel-tips__icon-chat.svg);
+}
+/* section "travel-tips" end */
+
+/* section "travel-tips" start */
+/* section "travel-tips" end */
 
 /* main end */
