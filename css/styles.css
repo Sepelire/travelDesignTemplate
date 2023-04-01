@@ -251,6 +251,7 @@
 
 .section__cards {
   display: grid;
+  grid-template-columns: repeat(4, 320px);
   gap: 32px;
 }
 
@@ -348,7 +349,6 @@
 }
 
 .section__cards--hotels-restaurants {
-  grid-template-columns: repeat(4, 320px);
 }
 
 .card {
@@ -424,7 +424,6 @@
 }
 
 .section__cards--travel-tips {
-  grid-template-columns: repeat(4, 320px);
 }
 
 .card {
@@ -484,7 +483,49 @@
 }
 /* section "travel-tips" end */
 
-/* section "travel-tips" start */
-/* section "travel-tips" end */
+/* section "activities" start */
+.section {
+}
+.section--activities {
+}
+.container {
+}
+.container--activities {
+}
+.section__header {
+}
+.section__header--activities {
+}
+.title {
+}
+.btn {
+}
+.btn-more {
+}
+.icon-arrow {
+}
+.section__cards {
+}
+
+.section__cards--activities {
+}
+
+.card {
+}
+.card--activities {
+}
+.card__link {
+}
+.card__figure {
+}
+.card__img {
+}
+.card__img--activities {
+  margin-bottom: 16px;
+}
+
+.card__title {
+}
+/* section "activities" end */
 
 /* main end */
