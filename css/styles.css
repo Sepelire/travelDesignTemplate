@@ -261,8 +261,8 @@
 
 .card {
 }
+
 .card--destinations {
-  position: relative;
 }
 
 .card__link {
@@ -274,6 +274,7 @@
 }
 
 .card__figure {
+  position: relative;
 }
 
 .card__img {
@@ -446,11 +447,14 @@
   line-height: 30px;
 }
 
-.card__description {
-  margin-bottom: 124px;
+.description {
   font-size: 16px;
   line-height: 32px;
   color: #5B5B5B;
+}
+
+.card__description {
+  margin-bottom: 124px;
 }
 
 .card__footer {
@@ -527,5 +531,55 @@
 .card__title {
 }
 /* section "activities" end */
+
+/* section "about-us" start */
+.section {
+}
+.section--about-us {
+}
+.container {
+}
+.container--about-us {
+}
+.section__cards {
+}
+
+.section__cards--about-us {
+  grid-template-columns: repeat(2, 556px);
+  justify-content: center;
+}
+
+.card {
+}
+
+.card--about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.title {
+}
+.description {
+}
+.btn {
+}
+.btn-more {
+}
+
+.btn-more--read {
+  width: 133px;
+  height: 44px;
+}
+
+.icon-arrow {
+}
+.img {
+}
+.img--about-us {
+  border-radius: 24px;
+}
+/* section "about-us" end */
 
 /* main end */
