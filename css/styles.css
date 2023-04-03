@@ -151,17 +151,17 @@
   color: #000;
 }
 
-.form__search-row {
+.form--header {
 }
 
-.search-row__list {
+.form__list {
   display: flex;
 }
 
-.search-row__item {
+.form__item {
 }
 
-.search-row__item-wrap {
+.form__wrap {
   padding: 16px 20px 16px 56px;
   display: flex;
   flex-direction: column;
@@ -172,36 +172,36 @@
   line-height: 24px;
 }
 
-.search-row__item-wrap--location {
+.form__wrap--location {
   width: 300px;
-  background-image: url(../img/header/header__search-row--location.svg);
+  background-image: url(../img/header/header__form--location.svg);
 }
 
-.search-row__item-wrap--activities {
+.form__wrap--activities {
   width: 255px;
-  background-image: url(../img/header/header__search-row--activity.svg);
+  background-image: url(../img/header/header__form--activity.svg);
 }
 
-.search-row__item-wrap--date {
+.form__wrap--date {
   width: 255px;
-  background-image: url(../img/header/header__search-row--calendar.svg);
+  background-image: url(../img/header/header__form--calendar.svg);
 }
 
-.search-row__item-wrap--guests {
+.form__wrap--guests {
   width: 255px;
-  background-image: url(../img/header/header__search-row--guests.svg);
+  background-image: url(../img/header/header__form--guests.svg);
 }
 
-.search-row__label {
+.form__label {
   font-size: 14px;
   font-weight: 300;
   line-height: 16px;
   color: #5B5B5B;
 }
 
-.search-row__select {
+.form__select {
 }
-.search-row__span {
+.form__span {
 }
 
 

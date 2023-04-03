@@ -1,1 +1,0 @@
-customSelect('.search-row__select');
