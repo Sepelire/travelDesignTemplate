@@ -12,6 +12,7 @@
 <body class="root">
   <!-- header start -->
   <header class="header">
+
     <div class="container container--header">
       <nav class="nav">
         <a href="#" class="header__logo-link">
@@ -46,20 +47,25 @@
       </div>
 
       <form class="form form--header">
-        <div class="form__wrap form__wrap--location">
-          <label for="explore" class="form__label">Location</label>
-          <input type="text" class="form__input" id="location">
-        </div>
+        <ul class="form__list">
+          <li class="form__item">
+            <div class="form__wrap form__wrap--location">
+              <label for="location" class="form__label">Location</label>
+              <input type="text" class="form__input" id="location">
+            </div>
+          </li>
 
-        <div class="form__wrap form__wrap--activities">
-          <label for="activities" class="form__label">Activity</label>
-          <select name="" class="form__select" id="activities">
-            <option value="all">All Activities</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-          </select>
-        </div>
+          <li class="form__item">
+            <div class="form__wrap form__wrap--activities">
+              <label for="activities" class="form__label">Activity</label>
+              <select name="" class="form__select" id="activities">
+                <option value="all">All Activities</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </li>
 
         <div class="form__wrap form__wrap--date">
           <label for="date" class="form__label">When</label>
@@ -77,8 +83,7 @@
         </div>
         <button class="btn btn-search"><img src="img/header/header__form--loupe.svg" alt="Какая-то лупа" class="btn-search__icon"></button>
       </form>
-    </div>
-  </header>
+  </header  >
   <!-- header end -->
 
   <!-- main start -->
