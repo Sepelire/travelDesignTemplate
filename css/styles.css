@@ -16,6 +16,10 @@
 /* header start */
 .header {
   height: 800px;
+  padding: 32px 32px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-image: url(../img/header/header__bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,7 +148,8 @@
   padding: 8px;
   width: 1140px;
   height: 88px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 300px repeat(3, 1fr) 60px;
   align-items: center;
   border-radius: 12px;
   background: white;
@@ -152,13 +157,6 @@
 }
 
 .form--header {
-}
-
-.form__list {
-  display: flex;
-}
-
-.form__item {
 }
 
 .form__wrap {
@@ -173,22 +171,18 @@
 }
 
 .form__wrap--location {
-  width: 300px;
   background-image: url(../img/header/header__form--location.svg);
 }
 
 .form__wrap--activities {
-  width: 255px;
   background-image: url(../img/header/header__form--activity.svg);
 }
 
 .form__wrap--date {
-  width: 255px;
   background-image: url(../img/header/header__form--calendar.svg);
 }
 
 .form__wrap--guests {
-  width: 255px;
   background-image: url(../img/header/header__form--guests.svg);
 }
 
@@ -228,9 +222,6 @@
 .section {
 }
 .section--destinations {
-}
-
-.container {
 }
 
 .container--destinations {
@@ -322,8 +313,6 @@
   
 }
 .section--hotels-restaurants {
-}
-.container {
 }
 .container--hotels-restaurants {
 }
@@ -418,8 +407,6 @@
 }
 .section--travel-tips {
 }
-.container {
-}
 .container--travel-tips {
 }
 .section__header {
@@ -505,8 +492,6 @@
 }
 .section--activities {
 }
-.container {
-}
 .container--activities {
 }
 .section__header {
@@ -549,8 +534,6 @@
 .section {
 }
 .section--about-us {
-}
-.container {
 }
 .container--about-us {
 }
