@@ -5,6 +5,7 @@
   margin: 0 auto;
   font-family: 'Poppins', 'Arial', serif;
   font-weight: 400;
+  cursor: default;
 }
 
 .container {
@@ -13,6 +14,14 @@
   max-width: 1440px;
 }
 
+.btn {
+  border-radius: 12px;
+  background: #7B61FF;
+}
+
+.btn:hover {
+  opacity: 70%;
+}
 /* header start */
 .header {
   height: 800px;
@@ -50,6 +59,10 @@
 .nav__item-link {
   color: white;
   opacity: 70%;
+}
+
+.nav__item-link:hover {
+  opacity: 100%;
 }
 
 .nav__item-link--active {
@@ -183,11 +196,6 @@
   color: #5B5B5B;
 }
 
-.btn {
-  border-radius: 12px;
-  background: #7B61FF;
-}
-
 .btn-search {
   width: 60px;
   height: 60px;
@@ -257,9 +265,15 @@
 }
 
 .card__title {
+  position: relative;
+  z-index: 1;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+}
+
+.card__title:hover {
+  opacity: 70%;
 }
 
 .card__footer-location {
@@ -275,6 +289,7 @@
   color: #7B61FF;
 }
 /* section "destinations" end */
+
 /* section "hotels-restaurants" start */
 .section__header {
   display: flex;
@@ -360,12 +375,14 @@
   padding-left: 44px;
   background-repeat: no-repeat;
   background-position: 25px 1.5px;
+  cursor: pointer;
 }
 
 .card__footer-span--date {
   padding-left: 20px;
   background-image: url(../img/travel-tips/travel-tips__icon-calendar.svg);
   background-position: 0;
+  cursor: default;
 }
 
 .card__footer-span--author {
@@ -468,6 +485,10 @@
 
 .footer__item-link {
   color: #5B5B5B;
+}
+
+.footer__item-link:hover {
+  color: #000;
 }
 
 .subscribe__text {
