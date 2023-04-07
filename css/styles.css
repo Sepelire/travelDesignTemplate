@@ -39,18 +39,12 @@
   align-items: center;
 }
 
-.header__logo-img {
-}
-
 .nav-list {
   display: flex;
   column-gap: 54px;
   font-size: 14px;
   font-weight: 300;
   line-height: 21px;
-}
-
-.nav__item {
 }
 
 .nav__item-link {
@@ -189,11 +183,6 @@
   color: #5B5B5B;
 }
 
-.form__select {
-}
-.form__span {
-}
-
 .btn {
   border-radius: 12px;
   background: #7B61FF;
@@ -202,9 +191,6 @@
 .btn-search {
   width: 60px;
   height: 60px;
-}
-
-.btn-search__icon {
 }
 /* form end */
 /* header end */
@@ -217,19 +203,8 @@
 }
 
 /* section "destinations" start */
-.section {
-}
-.section--destinations {
-}
-
-.container--destinations {
-}
-
 .section__header {
   margin-bottom: 64px;
-}
-
-.section__header--destinations {
 }
 
 .title {
@@ -259,12 +234,6 @@
   .section__cards--destinations {
     grid-template-columns: repeat(3, 203px);
   }
-}
-
-.card {
-}
-
-.card--destinations {
 }
 
 .card__link {
@@ -307,23 +276,10 @@
 }
 /* section "destinations" end */
 /* section "hotels-restaurants" start */
-.section {
-  
-}
-.section--hotels-restaurants {
-}
-.container--hotels-restaurants {
-}
-
 .section__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.section__header--hotels-restaurants {
-}
-.title {
 }
 
 .btn {
@@ -346,33 +302,12 @@
   width: 13px;
 }
 
-.section__cards {
-}
-
-.section__cards--hotels-restaurants {
-}
-
-.card {
-}
-.card--hotels-restaurants {
-}
-.card__link {
-}
-.card__figure {
-}
-
 .card__figure--hotels-restaurants {
   margin-bottom: 12px;
 }
 
-.card__img {
-}
-
 .card__img--hotels-restaurants {
   margin-bottom: 10px;
-}
-
-.card__title {
 }
 
 .card__footer {
@@ -391,9 +326,6 @@
 .card__footer-location--hotels-restaurants {
   padding-left: 20px;
 }
-
-.card-rating {
-}
 .card-star {
   height: 14.5px;
   width: 15px;
@@ -401,43 +333,6 @@
 /* section "hotels-restaurants" end */
 
 /* section "travel-tips" start */
-.section {
-}
-.section--travel-tips {
-}
-.container--travel-tips {
-}
-.section__header {
-}
-.section__header--travel-tips {
-}
-.title {
-}
-.btn {
-}
-.btn-more {
-}
-.icon-arrow {
-}
-.section__cards {
-}
-
-.section__cards--travel-tips {
-}
-
-.card {
-}
-.card--travel-tips {
-}
-.card__link {
-}
-.card__img {
-}
-.card__img--travel-tips {
-}
-.card__title {
-}
-
 .card__title--travel-tips {
   margin-bottom: 16px;
   font-size: 20px;
@@ -453,9 +348,6 @@
 
 .card__description {
   margin-bottom: 124px;
-}
-
-.card__footer {
 }
 
 .card__footer--travel-tips {
@@ -486,64 +378,15 @@
 /* section "travel-tips" end */
 
 /* section "activities" start */
-.section {
-}
-.section--activities {
-}
-.container--activities {
-}
-.section__header {
-}
-.section__header--activities {
-}
-.title {
-}
-.btn {
-}
-.btn-more {
-}
-.icon-arrow {
-}
-.section__cards {
-}
-
-.section__cards--activities {
-}
-
-.card {
-}
-.card--activities {
-}
-.card__link {
-}
-.card__figure {
-}
-.card__img {
-}
 .card__img--activities {
   margin-bottom: 16px;
-}
-
-.card__title {
 }
 /* section "activities" end */
 
 /* section "about-us" start */
-.section {
-}
-.section--about-us {
-}
-.container--about-us {
-}
-.section__cards {
-}
-
 .section__cards--about-us {
   grid-template-columns: repeat(2, 556px);
   justify-content: center;
-}
-
-.card {
 }
 
 .card--about-us {
@@ -553,24 +396,11 @@
   gap: 32px;
 }
 
-.title {
-}
-.description {
-}
-.btn {
-}
-.btn-more {
-}
-
 .btn-more--read {
   width: 133px;
   height: 44px;
 }
 
-.icon-arrow {
-}
-.img {
-}
 .img--about-us {
   border-radius: 24px;
 }
@@ -584,22 +414,10 @@
   background: #F9F9F9;
 }
 
-.container {
-}
-
 .container--footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer__wrap--links {
-}
-
-.footer__logo-link {
-}
-
-.logo-img {
 }
 
 .logo-img--footer {
@@ -621,17 +439,6 @@
 .icon-item {
   width: 32px;
   height: 32px;
-}
-
-.icon-link {
-}
-.icon {
-}
-.icon--facebook {
-}
-.icon--twitter {
-}
-.icon--instagram {
 }
 
 .footer__wrap--nav {
@@ -663,9 +470,6 @@
   color: #5B5B5B;
 }
 
-.footer__wrap--subscribe {
-}
-
 .subscribe__text {
   max-width: 388px;
   font-size: 18px;
@@ -679,15 +483,9 @@
   gap: 16px;
 }
 
-.form {
-}
-
 .form--footer {
   max-width: 300px;
   height: 72px;
-}
-
-.form__wrap {
 }
 
 .form__wrap--subscribe {
@@ -695,16 +493,10 @@
   background-position: 18px 27px;
 }
 
-.form__label {
-}
-
 .form__input {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-}
-
-.btn {
 }
 
 .btn-send {
