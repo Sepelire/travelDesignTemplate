@@ -12,7 +12,6 @@
 <body class="root">
   <!-- header start -->
   <header class="header">
-
     <div class="container container--header">
       <nav class="nav">
         <a href="#" class="header__logo-link">
@@ -47,25 +46,20 @@
       </div>
 
       <form class="form form--header">
-        <ul class="form__list">
-          <li class="form__item">
-            <div class="form__wrap form__wrap--location">
-              <label for="location" class="form__label">Location</label>
-              <input type="text" class="form__input" id="location">
-            </div>
-          </li>
+        <div class="form__wrap form__wrap--location">
+          <label for="location" class="form__label">Location</label>
+          <input type="text" class="form__input" id="location">
+        </div>
 
-          <li class="form__item">
-            <div class="form__wrap form__wrap--activities">
-              <label for="activities" class="form__label">Activity</label>
-              <select name="" class="form__select" id="activities">
-                <option value="all">All Activities</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
-            </div>
-          </li>
+        <div class="form__wrap form__wrap--activities">
+          <label for="activities" class="form__label">Activity</label>
+          <select name="" class="form__select" id="activities">
+            <option value="all">All Activities</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
 
         <div class="form__wrap form__wrap--date">
           <label for="date" class="form__label">When</label>
@@ -83,6 +77,7 @@
         </div>
         <button class="btn btn-search"><img src="img/header/header__form--loupe.svg" alt="Какая-то лупа" class="btn-search__icon"></button>
       </form>
+    </div>
   </header  >
   <!-- header end -->
 
@@ -429,13 +424,15 @@
 
       <div class="footer__wrap--subscribe">
         <h4 class="subscribe__text">Subscribe on our destination review newsletters</h4>
-        <form action="" class="form form--footer">
-          <div class="form__wrap form__wrap--subscribe">
-            <label for="" class="form__label">Your Email</label>
-            <input type="text" placeholder="johndoe@gmail.com" class="form__input">
-          </div>
-          <button class="btn btn-search"><img src="img/footer/footer__icon-arrow.svg" alt="Белка" class="btn-image"></button>
-        </form>
+        <div class="wrap-subscribe__form">
+          <form action="" class="form form--footer">
+            <div class="form__wrap form__wrap--subscribe">
+              <label for="" class="form__label">Your Email</label>
+              <input type="text" placeholder="johndoe@gmail.com" class="form__input">
+            </div>
+          </form>
+          <button class="btn btn-send"><img src="img/footer/footer__icon-arrow.svg" alt="Белка" class="btn-send__icon"></button>
+        </div>
       </div>
     </div>
   </footer>
